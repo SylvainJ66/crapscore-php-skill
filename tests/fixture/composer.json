@@ -1,0 +1,24 @@
+{
+    "name": "crap-score/fixture",
+    "description": "Tiny PHPUnit project used to exercise the crap-score skill. Methods are shaped so CRAP recommendations differ: test more, refactor, or leave alone.",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fixture\\Billing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fixture\\Billing\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
